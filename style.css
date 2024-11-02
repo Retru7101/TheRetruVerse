@@ -1,0 +1,119 @@
+body {
+    background-color: #f6e8ea; /* Light Pink */
+    color: #241623; /* Dark Brownish */
+    font-family: Arial, sans-serif; /* Change to your preferred font */
+}
+
+header {
+    background-color: #241623; /* Dark Brownish */
+    color: #f6e8ea; /* Light Pink */
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: #12664f; /* Dark Green */
+    text-decoration: none;
+    padding: 10px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #9bc59d; /* Light Green */
+}
+
+.container {
+    padding: 20px;
+    background-color: #f6e8ea; /* Light Pink */
+}
+
+h2 {
+    color: #8e6e53; /* Muted Brown */
+}
+
+footer {
+    background-color: #241623; /* Dark Brownish */
+    color: #f6e8ea; /* Light Pink */
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Apply fonts */
+h1, h2, h3 {
+    font-family: 'Dancing Script', cursive;
+    color: #12664f; /* Optional: add a color to make headings stand out */
+}
+
+body {
+    font-family: 'Lexend Deca', sans-serif;
+    color: #241623; /* Optional: text color for better readability */
+}
+
+h1, h2, h3 {
+    border-bottom: 2px solid #12664f; /* Adds a green border below headings */
+    padding-bottom: 10px; /* Adds space between the text and border */
+    margin-bottom: 20px; /* Adds space below the heading */
+}
+
+p {
+    border: 1px solid #8e6e53; /* Adds a brown border around paragraphs */
+    padding: 10px; /* Adds space inside the border */
+    border-radius: 5px; /* Rounds the corners */
+}
+
+p {
+    border: none; /* Removes the border around paragraphs */
+}
+
+h1, h2, h3 {
+    border-bottom: 2px solid #12664f; /* Keeps the line below headings */
+    padding-bottom: 10px; /* Adds space between text and the line */
+    margin-bottom: 20px; /* Adds space below the heading */
+}
+
+a {
+    color: #12664f; /* Default link color */
+    text-decoration: none; /* Removes underline */
+    transition: color 0.3s; /* Smooth transition effect */
+}
+
+a:hover {
+    color: #8e6e53; /* Changes color on hover */
+    text-decoration: underline; /* Adds underline on hover */
+}
+
+/* For tablets (screen width less than 768px) */
+@media (max-width: 768px) {
+    .container {
+        width: 90%; /* Make container wider for tablets */
+        padding: 15px; /* Adjust padding if needed */
+    }
+    body {
+        font-size: 16px; /* Slightly smaller font for tablets */
+    }
+    /* Add any other adjustments specific to tablet screens here */
+}
+
+/* For mobile devices (screen width less than 480px) */
+@media (max-width: 480px) {
+    .container {
+        width: 95%; /* Maximize container width for mobiles */
+        padding: 10px; /* Further reduce padding for small screens */
+    }
+    body {
+        font-size: 14px; /* Smaller font size for mobiles */
+    }
+    h1, h2, h3 {
+        font-size: 1.5em; /* Adjust heading sizes */
+    }
+    /* Adjust any other styles for mobile devices */
+}
+
+/* Responsive Images */
+img {
+    max-width: 100%; /* Ensures images do not exceed container width */
+    height: auto; /* Maintains image aspect ratio */
+}
